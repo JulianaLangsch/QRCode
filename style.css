@@ -1,0 +1,35 @@
+* {
+    font-family: "outfit", sans-serif;
+    }
+
+ p {
+font-size: 15px;
+color: hsl(216, 15%, 48%);
+font-weight: bold;
+    }
+
+.fundo {
+    height: 50vh;
+}
+
+body {
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    margin-top: 10vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 18vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.qrcode {
+    width: 18vw;
+    border-radius: 20px;
+}
